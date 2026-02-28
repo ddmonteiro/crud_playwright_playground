@@ -1,0 +1,33 @@
+{
+  "name": "crud-playground-playwright",
+  "version": "1.0.0",
+  "description": "Playwright automation with TypeScript and POM structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "pom",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.0",
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0",
+    "date-fns": "^3.3.0",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.3.0"
+  }
+}
